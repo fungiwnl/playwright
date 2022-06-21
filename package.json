@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "yarn playwright test --config=config/playwright.config.ts"
+  },
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fungiwnl/playwright.git",
+  "author": "<brianf.iwnl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
