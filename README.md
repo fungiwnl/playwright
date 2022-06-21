@@ -27,3 +27,12 @@ Record tests
 ```
 yarn test:record
 ```
+
+View traceview
+```
+yarn showtrace $PWD/example-trace.zip
+```
+
+Playwright help 
+```
+yarn test:help
