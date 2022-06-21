@@ -1,6 +1,11 @@
 {
   "scripts": {
-    "test": "yarn playwright test --config=config/playwright.config.ts"
+    "test": "yarn playwright test --config=config/playwright.config.ts",
+    "test:headed": "yarn playwright test --headed --config=config/playwright.config.ts",
+    "test:debug": "yarn playwright test --debug --config=config/playwright.config.ts",
+    "test:record": "yarn playwright codegen",
+    "test:help": "yarn playwright --help"
+
   },
   "name": "playwright",
   "version": "1.0.0",

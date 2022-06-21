@@ -17,6 +17,7 @@ const config: PlaywrightTestConfig = {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
+    // Disable running on webkit temporarily since I'm on archlinux
     // {
     //   name: 'webkit',
     //   use: { ...devices['Desktop Safari'] },
