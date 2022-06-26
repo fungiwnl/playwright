@@ -4,6 +4,7 @@
     "test:headed": "yarn playwright test --headed --config=config/playwright.config.ts",
     "test:debug": "yarn playwright test --debug --config=config/playwright.config.ts",
     "test:record": "yarn playwright codegen",
+    "showtrace": "yarn playwright show-trace",
     "test:help": "yarn playwright --help"
 
   },
